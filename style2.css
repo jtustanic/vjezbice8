@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.googlelogo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    border-top: 100px solid #ea4335;
+    border-right: 100px solid #4285f4;
+    border-bottom: 100px solid #34a853;
+    border-left: 100px solid #fbbc05;
+    border-radius: 50%;
+    /*background-color: azure;*/
+}
+
+.googlelogo:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -95px;
+    transform: translateY(-50%);
+    width: 245px;
+    height: 100px;
+    background-color: #4285f4;
+}
+
+.googlelogo::after{
+    content: "";
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 0;
+    height: 0;
+    border-top: 200px solid transparent;
+    border-right: 200px solid azure;
+}
+
+#googledrive{
+    width: 112px;
+    height: 96px;
+    position: relative;
+}
+
+#googledrive #yellow{
+    background: #FFD04B;
+    display: block;
+    width: 39px;
+    height: 62px;
+    transform: skew(30deg);
+    position: absolute;
+    top: 0;
+    right: 19px;
+}
+
+#googledrive #blue{
+    background: #4688F4;
+    display: block;
+    width: 74px;
+    height: 34px;
+    transform: skew(-30deg);
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+#googledrive #green{
+    background: #1FA463;
+    display: block;
+    width: 38px;
+    height: 96px;
+    transform: skew(150deg);
+    position: absolute;
+    top: 0;
+    left: 9px;
+}
+
+#googledrive #green::after{
+    content: "";
+    border-bottom: 40px solid;
+    border-right: 45px solid;
+    position: absolute;
+    left: -6px;
+    bottom: -1px;
+}
+
+#googledrive #green::after{
+    content: "";
+    border-bottom: 40px solid white;
+    border-right: 45px solid transparent;
+    position: absolute;
+    left: -6px;
+    bottom: -1px;
+}
