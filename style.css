@@ -1,3 +1,7 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*
 a{
     font-weight: bold;
     font-size: 32px;
@@ -52,4 +56,51 @@ a.vrsta2:hover{
 a.vrsta2:active{
     background-color: #595c75;
     color: white;
+}
+*/
+.tablica1{
+    border: 3px solid #3f488f;
+    margin-right: auto;
+    margin-left: auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-size: 32px;
+}
+
+td{
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 25px;
+    border: 2px solid #3f488f;
+}
+
+a{
+    color: #b32745;
+    text-decoration: none;
+}
+
+.cel{
+    background-color: #2b2185;
+}
+
+.cel:hover{
+    background-color: #43878a;
+    cursor: pointer;
+}
+
+a:visited{
+    color: #e0bfaf;
+}
+
+a:active{
+    color:#218569;
+}
+
+.cel2{
+    background-color: #2b2185;
+}
+
+.cel2:hover{
+    background-color: #e0242d;
 }
