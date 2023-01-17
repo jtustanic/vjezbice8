@@ -13,3 +13,43 @@ a:active{
     background-color: #e6b3c1;
     text-decoration: none;
 }
+
+a.vrsta1:link{
+    color: black;
+}
+
+a.vrsta1:visited{
+    color: #9bcbcc;
+}
+
+a.vrsta1:hover{
+    text-decoration: #1d797a wavy underline;
+}
+
+a.vrsta1{
+    background-color: #020d69;
+    color: black;
+}
+
+a.vrsta2{
+    text-decoration: underline;
+}
+
+a.vrsta2:link{
+    color: black;
+}
+
+a.vrsta2:visited{
+    color:#6397bf;
+}
+
+a.vrsta2:hover{
+    background-color: #164569;
+    color: white;
+    text-decoration: underline dotted;
+}
+
+a.vrsta2:active{
+    background-color: #595c75;
+    color: white;
+}
