@@ -1,0 +1,15 @@
+a{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+a:hover{
+    color: #7798ba;
+    background-color: #002347;
+}
+
+a:active{
+    color:#960c31;
+    background-color: #e6b3c1;
+    text-decoration: none;
+}
